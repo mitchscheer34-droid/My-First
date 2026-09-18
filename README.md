@@ -25,7 +25,8 @@ gpupdate /force
 ipconfig /flushdns
 ipconfig /release
 ipconfig /renew
-EnterPS-Session
+Enter-PSSession
+powercfg /batteryreport /output C:\temp\batt.html
 ```
 
 ## Project files
